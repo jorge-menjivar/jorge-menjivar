@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Jorge Menjivar</h1>
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=jorge-menjivar&theme=onedark" alt="jorge-menjivar" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=jorge-menjivar&theme=onedark&row=1" alt="jorge-menjivar" /></a> </p>
 
 - 🔭 I’m currently working on **some cool stuff**
 
