@@ -10,8 +10,7 @@
 - 👨‍💻 All of my projects are available at [https://jmenjivar.com](https://jmenjivar.com)
 
 ### Blogs posts
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+[![Omid Nikrah Medium](https://github-readme-medium.vercel.app/?username=jorgemenjivar)](https://medium.com/@jorgemenjivar)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
