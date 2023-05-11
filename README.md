@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Jorge Menjivar</h1>
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=jorge-menjivar&theme=onedark&row=1" alt="jorge-menjivar" /></a> </p>
 
-- 🔭 I’m currently working on **some cool stuff**
+- 🔭 I’m currently working on **[Chatbot-UI](https://github.com/jorge-menjivar/chatbot-ui)**
 
 - 👯 I’m looking to collaborate on [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT)
 
