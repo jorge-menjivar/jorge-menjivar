@@ -366,24 +366,24 @@
 
   <!-- Current action -->
   <text x="400" y="255" fill="#00ff41" font-family="monospace" font-size="14" font-weight="bold" text-anchor="middle"
-    opacity="0.9" filter="url(#textGlow)">🚀 [STATUS] </text>
+    opacity="0.9">🚀 [STATUS] </text>
   <text x="400" y="285" fill="#00ff41" font-family="monospace" font-size="14" font-weight="bold" text-anchor="middle"
-    opacity="0.9" filter="url(#textGlow)">As of Jun, 22 2025 at 10:21AM UTC, Jorge is</text>
+    opacity="0.9">As of Jun, 22 2025 at 10:36AM UTC, Jorge is</text>
   <text x="400" y="305" fill="rgb(255, 255, 255)" font-family="monospace" font-size="20" font-weight="bold"
-    text-anchor="middle" opacity="0.9" filter="url(#textGlow)">Eating and watching a show</text>
+    text-anchor="middle" opacity="0.9">Inventing new neural pathways</text>
 
 
   <!-- Status indicators -->
   <text x="750" y="225" fill="#00ff41" font-family="monospace" font-size="10" font-weight="bold" text-anchor="end"
-    opacity="0.8" filter="url(#textGlow)">QUANTUM_STATE: COHERENT</text>
+    opacity="0.8">QUANTUM_STATE: COHERENT</text>
   <text x="750" y="245" fill="#00ff41" font-family="monospace" font-size="10" font-weight="bold" text-anchor="end"
-    opacity="0.8" filter="url(#textGlow)">NEURAL_NET: ACTIVE</text>
+    opacity="0.8">NEURAL_NET: ACTIVE</text>
   <text x="750" y="265" fill="#00ff41" font-family="monospace" font-size="10" font-weight="bold" text-anchor="end"
-    opacity="0.8" filter="url(#textGlow)">ARCHITECTURE: 8→8→7→4</text>
+    opacity="0.8">ARCHITECTURE: 8→8→7→4</text>
   <text x="750" y="285" fill="#00ff41" font-family="monospace" font-size="10" font-weight="bold" text-anchor="end"
-    opacity="0.8" filter="url(#textGlow)">ENTANGLEMENT: HIGH</text>
+    opacity="0.8">ENTANGLEMENT: HIGH</text>
   <text x="750" y="305" fill="#00ff41" font-family="monospace" font-size="10" font-weight="bold" text-anchor="end"
-    opacity="0.8" filter="url(#textGlow)">CONSCIOUSNESS: ONLINE</text>
+    opacity="0.8">CONSCIOUSNESS: ONLINE</text>
 
 
   <!-- Subtle border for definition -->
