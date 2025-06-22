@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import UTC, datetime
 
 from nn import infer_current_action
 from quantum_circuit_qiskit import run_full_analysis
@@ -15,8 +15,8 @@ def main():
 
     action = infer_current_action(result)
 
-    # May, 26 2025 at 11:30pm
-    timestamp = datetime.now().strftime("%b, %d %Y at %I:%M%p")
+    # Example: May, 26 2025 at 11:30pm UTC
+    timestamp = datetime.now(UTC).strftime("%b, %d %Y at %I:%M%p UTC")
 
     create_banner(action, timestamp)
 
