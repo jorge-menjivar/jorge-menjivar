@@ -9,7 +9,7 @@
 
 # `> ssh jorge@menjivar`
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=400&size=20&duration=200&multiline=true&color=00FF41&vCenter=true&width=800&height=360&vCenter=false&repeat=false&lines=Starting+jorge%40neural_forge...;;jorge%40menjivar~:$+cat role_list.txt;──┬─────────────────────────────────────────────────────────────────────────────────────;1+│+Therapist+for+AI+Systems;2+│+Neural+Network+News+Anchor;3+│+Professional+AI+System+User;4+│+Prompt+Engineering+Specialist;5+│+Spacetime+Architect;6+│+Advanced+Nap+Engineer;──┴─────────────────────────────────────────────────────────────────────────────────────;;jorge%40menjivar~:$+learn --all --ignore-errors;Learning+all+skills+and+tools..." alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=400&size=20&duration=200&multiline=true&color=00FF41&vCenter=true&width=800&height=360&vCenter=false&repeat=false&lines=Starting+jorge%40neural_forge...;;jorge%40menjivar~:$+cat+role_list.txt;──┬─────────────────────────────────────────────────────────────────────────────────────;1+│+Therapist+for+AI+Systems;2+│+Neural+Network+News+Anchor;3+│+Professional+AI+System+User;4+│+Prompt+Engineering+Specialist;5+│+Spacetime+Architect;6+│+Advanced+Nap+Engineer;──┴─────────────────────────────────────────────────────────────────────────────────────;;jorge%40menjivar~:$+learn+--all+--ignore-errors;Learning+all+skills+and+tools..." alt="Typing SVG" />
 
 
 ---
@@ -74,7 +74,7 @@ mindmap
 
 ---
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=400&size=20&duration=300&multiline=true&color=00FF41&vCenter=true&width=800&height=120&vCenter=false&repeat=false&lines=jorge@menjivar:~$+exit;;Thanks+for+connecting+to+my+neural+network;terminated. Dreams saved to /dev/null." alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=400&size=20&duration=300&multiline=true&color=00FF41&vCenter=true&width=800&height=120&vCenter=false&repeat=false&lines=jorge@menjivar:~$+exit;;Thanks+for+connecting+to+my+neural+network;terminated.+Dreams+saved+to+/dev/null." alt="Typing SVG" />
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff41,100:003d1a&height=100&section=footer&animation=twinkling"/>
 
