@@ -276,52 +276,43 @@
 
   <!-- Better distributed quantum gates -->
   <!-- H Gate -->
-  <rect x="110" y="80" width="20" height="20" fill="#0d1117" stroke="#00ff41" stroke-width="2"
-    filter="url(#glow)" />
+  <rect x="110" y="80" width="20" height="20" fill="#0d1117" stroke="#00ff41" stroke-width="2" filter="url(#glow)" />
   <text x="120" y="95" fill="#00ff41" font-family="monospace" font-size="14" font-weight="bold"
     text-anchor="middle">H</text>
 
   <!-- CNOT Gate with proper control-target connection -->
-  <circle cx="180" cy="90" r="6" fill="#00ff41" stroke="#00ff41" stroke-width="2"
-    filter="url(#glow)" />
+  <circle cx="180" cy="90" r="6" fill="#00ff41" stroke="#00ff41" stroke-width="2" filter="url(#glow)" />
   <line x1="180" y1="90" x2="180" y2="130" stroke="#00ff41" stroke-width="2" opacity="1" />
   <circle cx="180" cy="130" r="6" fill="none" stroke="#00ff41" stroke-width="2" filter="url(#glow)" />
   <line x1="174" y1="130" x2="186" y2="130" stroke="#00ff41" stroke-width="2" />
   <line x1="180" y1="124" x2="180" y2="136" stroke="#00ff41" stroke-width="2" />
 
   <!-- H Gate on second qubit -->
-  <rect x="230" y="120" width="20" height="20" fill="#0d1117" stroke="#00ff41" stroke-width="2"
-    filter="url(#glow)" />
+  <rect x="230" y="120" width="20" height="20" fill="#0d1117" stroke="#00ff41" stroke-width="2" filter="url(#glow)" />
   <text x="240" y="135" fill="#00ff41" font-family="monospace" font-size="14" font-weight="bold"
     text-anchor="middle">H</text>
 
   <!-- Ry Gate with better positioning -->
-  <rect x="290" y="160" width="20" height="20" fill="#0d1117" stroke="#00ff41" stroke-width="2"
-    filter="url(#glow)" />
+  <rect x="290" y="160" width="20" height="20" fill="#0d1117" stroke="#00ff41" stroke-width="2" filter="url(#glow)" />
   <text x="300" y="174" fill="#00ff41" font-family="monospace" font-size="12" font-weight="bold"
     text-anchor="middle">Ry</text>
 
   <!-- Toffoli gate -->
   <line x1="360" y1="90" x2="360" y2="170" stroke="#00ff41" stroke-width="2" opacity="1" />
-  <circle cx="360" cy="90" r="6" fill="#00ff41" stroke="#00ff41" stroke-width="2"
-    filter="url(#glow)" />
-  <circle cx="360" cy="130" r="6" fill="#00ff41" stroke="#00ff41" stroke-width="2"
-    filter="url(#glow)" />
+  <circle cx="360" cy="90" r="6" fill="#00ff41" stroke="#00ff41" stroke-width="2" filter="url(#glow)" />
+  <circle cx="360" cy="130" r="6" fill="#00ff41" stroke="#00ff41" stroke-width="2" filter="url(#glow)" />
   <circle cx="360" cy="170" r="6" fill="none" stroke="#00ff41" stroke-width="2" filter="url(#glow)" />
   <line x1="354" y1="170" x2="366" y2="170" stroke="#00ff41" stroke-width="2" />
   <line x1="360" y1="164" x2="360" y2="176" stroke="#00ff41" stroke-width="2" />
 
   <!-- Measurement gates (quantum-to-classical boundary) -->
-  <rect x="410" y="80" width="20" height="20" fill="#0d1117" stroke="#00ff41" stroke-width="2"
-    filter="url(#glow)" />
+  <rect x="410" y="80" width="20" height="20" fill="#0d1117" stroke="#00ff41" stroke-width="2" filter="url(#glow)" />
   <text x="420" y="95" fill="#00ff41" font-family="monospace" font-size="14" font-weight="bold"
     text-anchor="middle">M</text>
-  <rect x="410" y="120" width="20" height="20" fill="#0d1117" stroke="#00ff41" stroke-width="2"
-    filter="url(#glow)" />
+  <rect x="410" y="120" width="20" height="20" fill="#0d1117" stroke="#00ff41" stroke-width="2" filter="url(#glow)" />
   <text x="420" y="135" fill="#00ff41" font-family="monospace" font-size="14" font-weight="bold"
     text-anchor="middle">M</text>
-  <rect x="410" y="160" width="20" height="20" fill="#0d1117" stroke="#00ff41" stroke-width="2"
-    filter="url(#glow)" />
+  <rect x="410" y="160" width="20" height="20" fill="#0d1117" stroke="#00ff41" stroke-width="2" filter="url(#glow)" />
   <text x="420" y="175" fill="#00ff41" font-family="monospace" font-size="14" font-weight="bold"
     text-anchor="middle">M</text>
 
@@ -363,8 +354,7 @@
 
 
   <!-- Main title with enhanced glow -->
-  <text x="400" y="40" fill="#00ff41" font-family="monospace" font-size="28" font-weight="bold"
-    text-anchor="middle">
+  <text x="400" y="40" fill="#00ff41" font-family="monospace" font-size="28" font-weight="bold" text-anchor="middle">
     JORGE'S QUANTUM STATE
   </text>
 
@@ -375,36 +365,27 @@
 
 
   <!-- Current action -->
-  <text x="400" y="255" fill="#00ff41" font-family="monospace" font-size="14" font-weight="bold"
-    text-anchor="middle"
+  <text x="400" y="255" fill="#00ff41" font-family="monospace" font-size="14" font-weight="bold" text-anchor="middle"
     opacity="0.9">🚀 [STATUS] </text>
-  <text x="400" y="285" fill="#00ff41" font-family="monospace" font-size="14" font-weight="bold"
-    text-anchor="middle"
-    opacity="0.9">As of Jun, 22 2025 at 10:39AM UTC, Jorge is</text>
-  <text x="400" y="305" fill="rgb(255, 255, 255)" font-family="monospace" font-size="20"
-    font-weight="bold"
-    text-anchor="middle" opacity="0.9">Fixing failed Linux updates</text>
+  <text x="400" y="285" fill="#00ff41" font-family="monospace" font-size="14" font-weight="bold" text-anchor="middle"
+    opacity="0.9">As of Jun, 22 2025 at 10:40AM UTC, Jorge is</text>
+  <text x="400" y="305" fill="rgb(255, 255, 255)" font-family="monospace" font-size="20" font-weight="bold"
+    text-anchor="middle" opacity="0.9">Arguing with AI</text>
 
 
   <!-- Status indicators -->
-  <text x="750" y="225" fill="#00ff41" font-family="monospace" font-size="10" font-weight="bold"
-    text-anchor="end"
+  <text x="750" y="225" fill="#00ff41" font-family="monospace" font-size="10" font-weight="bold" text-anchor="end"
     opacity="0.8">QUANTUM_STATE: COHERENT</text>
-  <text x="750" y="245" fill="#00ff41" font-family="monospace" font-size="10" font-weight="bold"
-    text-anchor="end"
+  <text x="750" y="245" fill="#00ff41" font-family="monospace" font-size="10" font-weight="bold" text-anchor="end"
     opacity="0.8">NEURAL_NET: ACTIVE</text>
-  <text x="750" y="265" fill="#00ff41" font-family="monospace" font-size="10" font-weight="bold"
-    text-anchor="end"
+  <text x="750" y="265" fill="#00ff41" font-family="monospace" font-size="10" font-weight="bold" text-anchor="end"
     opacity="0.8">ARCHITECTURE: 8→8→7→4</text>
-  <text x="750" y="285" fill="#00ff41" font-family="monospace" font-size="10" font-weight="bold"
-    text-anchor="end"
+  <text x="750" y="285" fill="#00ff41" font-family="monospace" font-size="10" font-weight="bold" text-anchor="end"
     opacity="0.8">ENTANGLEMENT: HIGH</text>
-  <text x="750" y="305" fill="#00ff41" font-family="monospace" font-size="10" font-weight="bold"
-    text-anchor="end"
+  <text x="750" y="305" fill="#00ff41" font-family="monospace" font-size="10" font-weight="bold" text-anchor="end"
     opacity="0.8">CONSCIOUSNESS: ONLINE</text>
 
 
   <!-- Subtle border for definition -->
-  <rect x="1" y="1" width="798" height="338" fill="none" stroke="#00ff41" stroke-width="2"
-    opacity="0.3" />
+  <rect x="1" y="1" width="798" height="338" fill="none" stroke="#00ff41" stroke-width="2" opacity="0.3" />
 </svg>
