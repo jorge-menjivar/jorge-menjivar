@@ -17,11 +17,11 @@
 
 ### 📊 `python ./metrics.py`
 
-<img src="https://github-profile-trophy.vercel.app/?username=jorge-menjivar&theme=matrix&row=1&no-frame=true&margin-w=30" alt="jorge-menjivar" />
+<img src="https://github-profile-trophy-fork-two.vercel.app/?username=jorge-menjivar&theme=matrix&row=1&no-frame=true&margin-w=30" alt="jorge-menjivar" />
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=jorge-menjivar&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&icon_color=00ff41&border_color=30363d"/>
+<img height="180em" src="https://github-readme-stats-drab-omega-44.vercel.app/api?username=jorge-menjivar&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&icon_color=00ff41&border_color=30363d"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=jorge-menjivar&theme=dark&background=0d1117&stroke=00ff41&ring=00ff41&fire=00ff41&currStreakLabel=00ff41&sideNums=c9d1d9&currStreakNum=c9d1d9&dates=8b949e&sideLabels=c9d1d9" alt="jorge-menjivar" />
+<img src="https://github-readme-streak-stats-kappa-indol.vercel.app/?user=jorge-menjivar&theme=dark&background=0d1117&stroke=00ff41&ring=00ff41&fire=00ff41&currStreakLabel=00ff41&sideNums=c9d1d9&currStreakNum=c9d1d9&dates=8b949e&sideLabels=c9d1d9&hide_longest_streak=true" alt="jorge-menjivar" />
 
 
 
