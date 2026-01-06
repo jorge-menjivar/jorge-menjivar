@@ -30,6 +30,10 @@
 ### 🎯 `pnpm run neural_processes`
 
 ```mermaid
+---
+config:
+  theme: neutral
+---
 mindmap
   root((./jorge))
     FavoriteLanguages
