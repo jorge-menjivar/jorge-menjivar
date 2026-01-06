@@ -70,7 +70,7 @@ mindmap
 
 [![GitHub](https://img.shields.io/badge/GitHub-/v1/github-100000?style=for-the-badge&logo=github&logoColor=00ff41&color=0d1117)](https://github.com/jorge-menjivar)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-/v1/professional-0077B5?style=for-the-badge&logo=linkedin&logoColor=00ff41&color=0d1117)](https://linkedin.com/in/jorgemenjivar)
-[![Email](https://img.shields.io/badge/Email-/v1/email-D14836?style=for-the-badge&logo=gmail&logoColor=00ff41&color=0d1117)](mailto:jorge@menjivar.xyz)
+[![Email](https://img.shields.io/badge/Email-/v1/email-D14836?style=for-the-badge&logo=gmail&logoColor=00ff41&color=0d1117)](mailto:jorge@menjivar.ai)
 
 ---
 
