@@ -1,9 +1,8 @@
 <div align="center">
 
+![](https://komarev.com/ghpvc/?username=jorge-menjivar&color=00ff41&style=for-the-badge&label=Profile+Views)
 <!-- Custom Quantum Banner -->
 <img src="./assets/quantum-banner.svg" alt="Jorge Menjivar - Quantum Neural Network Architect" width="100%"/>
-
-![](https://komarev.com/ghpvc/?username=jorge-menjivar&color=00ff41&style=for-the-badge&label=NEURAL+ACTIVATIONS)
 
 </div>
 
