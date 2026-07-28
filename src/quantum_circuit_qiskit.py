@@ -191,7 +191,7 @@ def generate_circuit_report(
             name="Jorge's Quantum Neural Circuit",
             qubits=num_qubits,
             depth=circuit.depth(),
-            gates=dict(circuit.count_ops()),  # type: ignore
+            gates=dict(circuit.count_ops()),
             timestamp=datetime.now().isoformat(),
         ),
         quantum_properties=QuantumProperties(
