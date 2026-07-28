@@ -13,25 +13,26 @@
   ]
 
 [dependency-groups]
-  dev = ["basedpyright>=1.29.4", "ruff>=0.12.0"]
+  dev = ["ruff>=0.12.0", "ty>=0.0.64"]
 
 
-[tool.pyright]
-  # Re-add "tests" here once that directory exists; listing a missing path
-  # makes basedpyright exit 3 even when it reports no errors.
-  include                   = ["src"]
-  exclude                   = ["**/node_modules", "**/__pycache__"]
-  defineConstant            = { DEBUG = true, PYTHONPATH = "src" }
-  typeCheckingMode          = "standard"
-  reportMissingImports      = "error"
-  reportMissingTypeStubs    = "none"
-  reportMissingTypeArgument = "error"
-  pythonVersion             = "3.13"
-  pythonPlatform            = "Linux"
-  reportShadowedImports     = true
-  reportMissingModuleSource = true
-  reportUnusedImport        = true
-  executionEnvironments     = [{ root = "tests", extraPaths = ["src"] }]
+# Replaces the previous [tool.pyright] section. Add "tests" to src.include
+# once that directory exists.
+[tool.ty.environment]
+  python-version  = "3.13"
+  python-platform = "linux"
+  # src/ is the import root: modules there import each other by bare name
+  # (`from nn import ...`), so ty needs it on the search path.
+  root            = ["./src"]
+
+[tool.ty.src]
+  include = ["src"]
+  exclude = ["**/__pycache__", "**/node_modules"]
+
+[tool.ty.rules]
+  # Defaults to a warning, which would not fail CI. Stale suppressions are how
+  # a type checker quietly stops checking things, so treat them as errors.
+  unused-type-ignore-comment = "error"
 
 [tool.yapf]
   based_on_style        = "pep8"
