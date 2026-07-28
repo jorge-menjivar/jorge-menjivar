@@ -45,7 +45,10 @@ jobs:
         run: |
           uv run python src/main.py
 
+      # Skipped on pull_request: that event checks out a detached merge ref,
+      # so there is no branch to push back to.
       - name: 🔄 Update repository with fresh visuals
+        if: github.event_name != 'pull_request'
         run: |
           git config --local user.email "jorge@menjivar.ai"
           git config --local user.name "Quantum Activity Bot"

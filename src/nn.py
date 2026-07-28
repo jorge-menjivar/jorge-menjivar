@@ -6,6 +6,7 @@ from typing import TYPE_CHECKING
 import numpy as np
 
 from constants import STATE_LIST
+from models.nn import NeuralReadout
 
 if TYPE_CHECKING:
     from models.quantum import QuantumSimulationResult
@@ -128,20 +129,20 @@ class SimpleNeuralNetwork:
 
         return output
 
-    def predict_bits(self, inputs: np.ndarray, threshold: float = 0.5) -> np.ndarray:
+    def predict_bits(self, inputs: np.ndarray) -> tuple[np.ndarray, float, np.ndarray]:
         """Predict binary outputs from inputs.
 
         Parameters
         ----------
         inputs : np.ndarray
             Input vector
-        threshold : float
-            Threshold for converting to binary, by default 0.5
 
         Returns
         -------
-        np.ndarray
-            4-bit binary output
+        tuple[np.ndarray, float, np.ndarray]
+            The raw output activations, the adaptive threshold applied to them,
+            and the resulting 4-bit binary output. The banner renders all three,
+            so the threshold has to come back out rather than stay local.
         """
         output = self.forward(inputs)
 
@@ -152,7 +153,7 @@ class SimpleNeuralNetwork:
         print(f"🎯 Network output values: {output}")
         print(f"🎯 Adaptive threshold: {adaptive_threshold:.3f}")
 
-        return (output > adaptive_threshold).astype(int)
+        return output, adaptive_threshold, (output > adaptive_threshold).astype(int)
 
     def bits_to_action_index(self, bits: np.ndarray) -> int:
         """Convert 4-bit binary to action index.
@@ -175,7 +176,7 @@ def create_dynamic_neural_network() -> SimpleNeuralNetwork:
     return SimpleNeuralNetwork()
 
 
-def infer_current_action(result: QuantumSimulationResult) -> str:
+def infer_current_action(result: QuantumSimulationResult) -> NeuralReadout:
     """Infer the action from the quantum simulation measurements.
 
     Parameters
@@ -185,8 +186,8 @@ def infer_current_action(result: QuantumSimulationResult) -> str:
 
     Returns
     -------
-    str
-        The predicted action as a string
+    NeuralReadout
+        The activations, threshold, bits and action for this run.
     """
     # Create a fresh neural network for each inference (more dynamic)
     neural_network = create_dynamic_neural_network()
@@ -205,7 +206,7 @@ def infer_current_action(result: QuantumSimulationResult) -> str:
 
     # Get neural network prediction
     print("🔮 Running Neural Network Inference...")
-    bits = neural_network.predict_bits(augmented_input)
+    activations, threshold, bits = neural_network.predict_bits(augmented_input)
     action_index = neural_network.bits_to_action_index(bits)
 
     # Ensure index is within bounds
@@ -219,4 +220,10 @@ def infer_current_action(result: QuantumSimulationResult) -> str:
 """
     )
 
-    return predicted_action
+    return NeuralReadout(
+        activations=[float(a) for a in activations],
+        threshold=threshold,
+        bits=[int(b) for b in bits],
+        index=action_index,
+        action=str(predicted_action),
+    )
