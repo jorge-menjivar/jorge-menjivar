@@ -17,7 +17,9 @@
 
 
 [tool.pyright]
-  include                   = ["src", "tests"]
+  # Re-add "tests" here once that directory exists; listing a missing path
+  # makes basedpyright exit 3 even when it reports no errors.
+  include                   = ["src"]
   exclude                   = ["**/node_modules", "**/__pycache__"]
   defineConstant            = { DEBUG = true, PYTHONPATH = "src" }
   typeCheckingMode          = "standard"
