@@ -81,7 +81,7 @@ def simulate_circuit(circuit: QuantumCircuit, shots=8192) -> QuantumSimulationRe
     job = simulator.run(transpiled_circuit, shots=shots)
     raw_result = job.result()
 
-    counts: dict[str, int] = raw_result.get_counts()  # type: ignore
+    counts: dict[str, int] = raw_result.get_counts()
     total_shots = sum(counts.values())
 
     # Standardize probabilities
@@ -191,7 +191,7 @@ def generate_circuit_report(
             name="Jorge's Quantum Neural Circuit",
             qubits=num_qubits,
             depth=circuit.depth(),
-            gates=dict(circuit.count_ops()),  # type: ignore
+            gates=dict(circuit.count_ops()),
             timestamp=datetime.now().isoformat(),
         ),
         quantum_properties=QuantumProperties(

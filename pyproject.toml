@@ -6,30 +6,33 @@
   requires-python = ">=3.13"
   dependencies = [
     "jinja2>=3.1.6",
-    "numpy>=2.3.0",
-    "pydantic>=2.11.7",
-    "qiskit>=2.1.0",
-    "qiskit-aer>=0.17.1",
+    "numpy>=2.5.1",
+    "pydantic>=2.13.4",
+    "qiskit>=2.5.1",
+    "qiskit-aer>=0.17.2",
   ]
 
 [dependency-groups]
-  dev = ["basedpyright>=1.29.4", "ruff>=0.12.0"]
+  dev = ["ruff>=0.16.0", "ty>=0.0.64"]
 
 
-[tool.pyright]
-  include                   = ["src", "tests"]
-  exclude                   = ["**/node_modules", "**/__pycache__"]
-  defineConstant            = { DEBUG = true, PYTHONPATH = "src" }
-  typeCheckingMode          = "standard"
-  reportMissingImports      = "error"
-  reportMissingTypeStubs    = "none"
-  reportMissingTypeArgument = "error"
-  pythonVersion             = "3.13"
-  pythonPlatform            = "Linux"
-  reportShadowedImports     = true
-  reportMissingModuleSource = true
-  reportUnusedImport        = true
-  executionEnvironments     = [{ root = "tests", extraPaths = ["src"] }]
+# Replaces the previous [tool.pyright] section. Add "tests" to src.include
+# once that directory exists.
+[tool.ty.environment]
+  python-version  = "3.13"
+  python-platform = "linux"
+  # src/ is the import root: modules there import each other by bare name
+  # (`from nn import ...`), so ty needs it on the search path.
+  root            = ["./src"]
+
+[tool.ty.src]
+  include = ["src"]
+  exclude = ["**/__pycache__", "**/node_modules"]
+
+[tool.ty.rules]
+  # Defaults to a warning, which would not fail CI. Stale suppressions are how
+  # a type checker quietly stops checking things, so treat them as errors.
+  unused-type-ignore-comment = "error"
 
 [tool.yapf]
   based_on_style        = "pep8"
@@ -94,7 +97,7 @@
       "F",
       "W",
       "I",
-      "C901",
+      "complex-structure",
       "TCH",
       "N",
       "D",
@@ -104,7 +107,16 @@
       "ASYNC",
       "RUF",
     ]
-    ignore = ["N805", "D100", "D101", "D102", "D103", "D104"]
+    # ruff 0.16 wants rule names rather than codes in selectors, so these were
+    # rewritten from N805 / D100-D104.
+    ignore = [
+      "invalid-first-argument-name-for-method",
+      "undocumented-public-module",
+      "undocumented-public-class",
+      "undocumented-public-method",
+      "undocumented-public-function",
+      "undocumented-public-package",
+    ]
     per-file-ignores = {}
 
     [tool.ruff.lint.pydoclint]
