@@ -60,13 +60,6 @@ mindmap
       Quantum AI systems
 ```
 
-### Activity
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=jorge-menjivar&hide_border=true&bg_color=00000000&color=E6EDF3&title_color=E08A4F&line=58B6DA&point=E08A4F&area=true&area_color=58B6DA">
-  <img alt="Contribution activity graph for jorge-menjivar" src="https://github-readme-activity-graph.vercel.app/graph?username=jorge-menjivar&hide_border=true&bg_color=00000000&color=1F2733&title_color=B2643C&line=2E7D9E&point=B2643C&area=true&area_color=2E7D9E" width="100%">
-</picture>
-
 ### Exceptions
 
 <picture>
