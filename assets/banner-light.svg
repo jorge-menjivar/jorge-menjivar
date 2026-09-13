@@ -20,7 +20,7 @@
   </text>
   <text x="876" y="22" text-anchor="end">
     <tspan fill="#6b7684" font-size="9" letter-spacing="1.5">LAST MEASURED</tspan>
-    <tspan fill="#1f2733" font-size="10.5" dx="11">13 SEP 2026 · 04:05 UTC</tspan>
+    <tspan fill="#1f2733" font-size="10.5" dx="11">13 SEP 2026 · 16:15 UTC</tspan>
   </text>
   <line x1="2" y1="38.5" x2="876" y2="38.5"
         stroke="#d9dee4" stroke-width="1"/>
@@ -146,39 +146,39 @@
     <path d="M314 85 V94.5"/>
     <path d="M339 85 L343.2 89.75 L339 94.5"/>
   </g>
-  <text x="318" y="93.5" fill="#1f2733">000</text>
+  <text x="318" y="93.5" fill="#1f2733">001</text>
   <rect x="352" y="86.0" width="160" height="8"
         rx="1" fill="#edf0f3"/>
   <rect x="352" y="86.0" width="160.00"
         height="8" rx="1" fill="#2e7d9e"/>
   <text x="592" y="93.5" text-anchor="end"
-        fill="#1f2733">19.2%</text>
+        fill="#1f2733">18.9%</text>
   
   <g stroke="#6b7684" stroke-width="1.1" fill="none"
      stroke-linecap="round" stroke-linejoin="round">
     <path d="M314 100 V109.5"/>
     <path d="M339 100 L343.2 104.75 L339 109.5"/>
   </g>
-  <text x="318" y="108.5" fill="#1f2733">010</text>
+  <text x="318" y="108.5" fill="#1f2733">000</text>
   <rect x="352" y="101.0" width="160" height="8"
         rx="1" fill="#edf0f3"/>
-  <rect x="352" y="101.0" width="158.68"
+  <rect x="352" y="101.0" width="159.90"
         height="8" rx="1" fill="#2e7d9e"/>
   <text x="592" y="108.5" text-anchor="end"
-        fill="#1f2733">19.1%</text>
+        fill="#1f2733">18.9%</text>
   
   <g stroke="#6b7684" stroke-width="1.1" fill="none"
      stroke-linecap="round" stroke-linejoin="round">
     <path d="M314 115 V124.5"/>
     <path d="M339 115 L343.2 119.75 L339 124.5"/>
   </g>
-  <text x="318" y="123.5" fill="#1f2733">001</text>
+  <text x="318" y="123.5" fill="#1f2733">010</text>
   <rect x="352" y="116.0" width="160" height="8"
         rx="1" fill="#edf0f3"/>
-  <rect x="352" y="116.0" width="153.91"
+  <rect x="352" y="116.0" width="157.83"
         height="8" rx="1" fill="#2e7d9e"/>
   <text x="592" y="123.5" text-anchor="end"
-        fill="#1f2733">18.5%</text>
+        fill="#1f2733">18.7%</text>
   
   <g stroke="#6b7684" stroke-width="1.1" fill="none"
      stroke-linecap="round" stroke-linejoin="round">
@@ -188,79 +188,79 @@
   <text x="318" y="138.5" fill="#1f2733">111</text>
   <rect x="352" y="131.0" width="160" height="8"
         rx="1" fill="#edf0f3"/>
-  <rect x="352" y="131.0" width="150.25"
+  <rect x="352" y="131.0" width="157.63"
         height="8" rx="1" fill="#2e7d9e"/>
   <text x="592" y="138.5" text-anchor="end"
-        fill="#1f2733">18.1%</text>
+        fill="#1f2733">18.7%</text>
   
   <g stroke="#6b7684" stroke-width="1.1" fill="none"
      stroke-linecap="round" stroke-linejoin="round">
     <path d="M314 145 V154.5"/>
     <path d="M339 145 L343.2 149.75 L339 154.5"/>
   </g>
-  <text x="318" y="153.5" fill="#1f2733">101</text>
+  <text x="318" y="153.5" fill="#1f2733">011</text>
   <rect x="352" y="146.0" width="160" height="8"
         rx="1" fill="#edf0f3"/>
-  <rect x="352" y="146.0" width="52.99"
+  <rect x="352" y="146.0" width="54.98"
         height="8" rx="1" fill="#2e7d9e"/>
   <text x="592" y="153.5" text-anchor="end"
-        fill="#1f2733">6.4%</text>
+        fill="#1f2733">6.5%</text>
   
   <g stroke="#6b7684" stroke-width="1.1" fill="none"
      stroke-linecap="round" stroke-linejoin="round">
     <path d="M314 160 V169.5"/>
     <path d="M339 160 L343.2 164.75 L339 169.5"/>
   </g>
-  <text x="318" y="168.5" fill="#1f2733">011</text>
+  <text x="318" y="168.5" fill="#1f2733">110</text>
   <rect x="352" y="161.0" width="160" height="8"
         rx="1" fill="#edf0f3"/>
-  <rect x="352" y="161.0" width="52.69"
+  <rect x="352" y="161.0" width="52.71"
         height="8" rx="1" fill="#2e7d9e"/>
   <text x="592" y="168.5" text-anchor="end"
-        fill="#1f2733">6.3%</text>
+        fill="#1f2733">6.2%</text>
   
   <g stroke="#6b7684" stroke-width="1.1" fill="none"
      stroke-linecap="round" stroke-linejoin="round">
     <path d="M314 175 V184.5"/>
     <path d="M339 175 L343.2 179.75 L339 184.5"/>
   </g>
-  <text x="318" y="183.5" fill="#1f2733">110</text>
+  <text x="318" y="183.5" fill="#1f2733">100</text>
   <rect x="352" y="176.0" width="160" height="8"
         rx="1" fill="#edf0f3"/>
-  <rect x="352" y="176.0" width="51.98"
+  <rect x="352" y="176.0" width="51.37"
         height="8" rx="1" fill="#2e7d9e"/>
   <text x="592" y="183.5" text-anchor="end"
-        fill="#1f2733">6.2%</text>
+        fill="#1f2733">6.1%</text>
   
   <g stroke="#6b7684" stroke-width="1.1" fill="none"
      stroke-linecap="round" stroke-linejoin="round">
     <path d="M314 190 V199.5"/>
     <path d="M339 190 L343.2 194.75 L339 199.5"/>
   </g>
-  <text x="318" y="198.5" fill="#1f2733">100</text>
+  <text x="318" y="198.5" fill="#1f2733">101</text>
   <rect x="352" y="191.0" width="160" height="8"
         rx="1" fill="#edf0f3"/>
-  <rect x="352" y="191.0" width="51.17"
+  <rect x="352" y="191.0" width="50.65"
         height="8" rx="1" fill="#2e7d9e"/>
   <text x="592" y="198.5" text-anchor="end"
-        fill="#1f2733">6.2%</text>
+        fill="#1f2733">6.0%</text>
   
 
   <text x="314" y="216" font-size="9.5"
         fill="#6b7684">8192 shots · entropy 2.81 / 3 bits</text>
 
   <!-- =================================================== INFER ========== -->
-  <line x1="734.00" y1="84"
-        x2="734.00" y2="198"
+  <line x1="709.51" y1="84"
+        x2="709.51" y2="198"
         stroke="#6b7684" stroke-width="1" stroke-dasharray="2 3"/>
   
   <text x="624" y="99.5" fill="#6b7684">b0</text>
   <rect x="650" y="93.0" width="120"
         height="6" rx="1" fill="#edf0f3"/>
-  <rect x="650" y="93.0" width="115.29"
+  <rect x="650" y="93.0" width="63.42"
         height="6" rx="1" fill="#2e7d9e"/>
   <text x="808" y="99.5" text-anchor="end"
-        fill="#1f2733">0.961</text>
+        fill="#1f2733">0.529</text>
   <text x="876" y="100.5" text-anchor="end" font-size="13"
         font-weight="600"
         fill="#b2643c">1</text>
@@ -268,10 +268,10 @@
   <text x="624" y="129.5" fill="#6b7684">b1</text>
   <rect x="650" y="123.0" width="120"
         height="6" rx="1" fill="#edf0f3"/>
-  <rect x="650" y="123.0" width="120.00"
+  <rect x="650" y="123.0" width="59.85"
         height="6" rx="1" fill="#2e7d9e"/>
   <text x="808" y="129.5" text-anchor="end"
-        fill="#1f2733">1.000</text>
+        fill="#1f2733">0.499</text>
   <text x="876" y="130.5" text-anchor="end" font-size="13"
         font-weight="600"
         fill="#b2643c">1</text>
@@ -279,10 +279,10 @@
   <text x="624" y="159.5" fill="#6b7684">b2</text>
   <rect x="650" y="153.0" width="120"
         height="6" rx="1" fill="#edf0f3"/>
-  <rect x="650" y="153.0" width="8.85"
+  <rect x="650" y="153.0" width="52.48"
         height="6" rx="1" fill="#2e7d9e"/>
   <text x="808" y="159.5" text-anchor="end"
-        fill="#1f2733">0.074</text>
+        fill="#1f2733">0.437</text>
   <text x="876" y="160.5" text-anchor="end" font-size="13"
         font-weight="600"
         fill="#6b7684">0</text>
@@ -290,17 +290,17 @@
   <text x="624" y="189.5" fill="#6b7684">b3</text>
   <rect x="650" y="183.0" width="120"
         height="6" rx="1" fill="#edf0f3"/>
-  <rect x="650" y="183.0" width="119.99"
+  <rect x="650" y="183.0" width="62.29"
         height="6" rx="1" fill="#2e7d9e"/>
   <text x="808" y="189.5" text-anchor="end"
-        fill="#1f2733">1.000</text>
+        fill="#1f2733">0.519</text>
   <text x="876" y="190.5" text-anchor="end" font-size="13"
         font-weight="600"
         fill="#b2643c">1</text>
   
 
   <text x="624" y="216" font-size="9.5"
-        fill="#6b7684">threshold 0.700 · state 13 / 16</text>
+        fill="#6b7684">threshold 0.496 · state 13 / 16</text>
 
   <!-- ================================================== readout ========= -->
   <line x1="2" y1="240.5" x2="876" y2="240.5"
